@@ -1,6 +1,6 @@
 {
   "name": "@es-joy/json-file-reporter",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Brett Zamir",
   "contributors": [
     {
@@ -31,7 +31,7 @@
   ],
   "main": "src/index.js",
   "peerDependencies": {
-    "mocha": "6.x || 7.x || 8.x || 9.x || 10.x"
+    "mocha": ">=6.x"
   },
   "license": "MIT",
   "keywords": [

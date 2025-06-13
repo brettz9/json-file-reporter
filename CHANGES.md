@@ -1,5 +1,9 @@
 # CHANGES for `json-file-reporter`
 
+## 1.5.0
+
+- fix: make peer dependencies accept any Mocha higher than v6
+
 ## 1.4.0
 
 - fix: add Mocha 10 to `peerDependencies`
