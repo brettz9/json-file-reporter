@@ -1,0 +1,5 @@
+packages:
+  - example
+
+allowBuilds:
+  unrs-resolver: true

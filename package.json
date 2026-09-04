@@ -1,7 +1,9 @@
 {
   "name": "@es-joy/json-file-reporter",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "author": "Brett Zamir",
+  "type": "module",
+  "main": "src/index.js",
   "contributors": [
     {
       "name": "Munieru",
@@ -14,7 +16,7 @@
     "url": "https://github.com/mocha-community/json-file-reporter/issues"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=22.16.0"
   },
   "repository": {
     "type": "git",
@@ -29,9 +31,8 @@
   "files": [
     "src"
   ],
-  "main": "src/index.js",
   "peerDependencies": {
-    "mocha": ">=6.x"
+    "mocha": ">=12.x"
   },
   "license": "MIT",
   "keywords": [
@@ -39,14 +40,10 @@
     "json",
     "reporter"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-standard": "17.0.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-standard": "4.1.0",
-    "mocha": "9.2.2"
+    "@es-joy/json-file-reporter": "workspace:*",
+    "eslint": "10.9.1",
+    "eslint-config-ash-nazg": "43.1.6",
+    "mocha": "12.0.0"
   }
 }

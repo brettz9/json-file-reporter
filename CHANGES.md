@@ -1,5 +1,12 @@
 # CHANGES for `json-file-reporter`
 
+## 2.0.0
+
+BREAKING CHANGE:
+- Requires Native ESM and Mocha 12. Bumps to Node >=22.16.0
+
+- feat: support Mocha 12 and make as native ESM module
+
 ## 1.5.0
 
 - fix: make peer dependencies accept any Mocha higher than v6
